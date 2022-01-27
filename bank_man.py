@@ -1,6 +1,6 @@
 #Client class
 #name
-#timestamp (optional)
+
 
 import datetime
 from turtle import settiltangle
@@ -25,7 +25,7 @@ class Account:
     @property #decorators
     def account_number(self):
         return self._account_number
-
+    
 class Client:
     def __init__(self, name: str):
         self.name = name
